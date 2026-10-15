@@ -1,0 +1,12 @@
+{
+  "origin": "https://www.doegetsaome.nl",
+  "output": "dist",
+  "sitemap": "sitemap.xml",
+  "requireSchema": true,
+  "pages": [
+    {
+      "url": "/",
+      "file": "index.html"
+    }
+  ]
+}

@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
-    "build": "vite build",
-    "preview": "vite preview --host 0.0.0.0"
+    "build": "node scripts/build-site.mjs && node scripts/check-quality.mjs",
+    "preview": "vite preview --host 0.0.0.0",
+    "check:quality": "node scripts/check-quality.mjs"
   },
   "dependencies": {
     "react": "^18.3.1",

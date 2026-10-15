@@ -1,3 +1,5 @@
+import React from "react";
+
 const siteContent = {
   logo: {
     src: "/logo-doeget-saome.png",
@@ -150,7 +152,7 @@ function Hero() {
             className="hero-logo"
             src={siteContent.logo.src}
             alt={siteContent.logo.alt}
-            fetchPriority="high"
+            fetchpriority="high"
           />
         </div>
       </div>
