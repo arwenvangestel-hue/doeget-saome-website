@@ -337,6 +337,7 @@ function Footer() {
     <footer className="site-footer">
       <p>{siteContent.hero.slogan}</p>
       <span>Stichting Doeget Saome</span>
+      <div className="vgd-powered"><a className="vgd-powered-link" href="https://vangesteldigitaal.nl/?utm_source=doeget-saome&amp;utm_medium=referral&amp;utm_campaign=powered_by&amp;utm_content=footer" target="_blank" rel="noopener" aria-label="Powered by Van Gestel Digitaal — bezoek de website"><span className="vgd-powered-label">Powered by</span><span className="vgd-powered-logo" aria-hidden="true"><span className="vgd-powered-words"><span>VAN GESTEL</span><span>DIGITAAL</span></span><span className="vgd-powered-square"></span></span></a></div>
     </footer>
   );
 }
